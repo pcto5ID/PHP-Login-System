@@ -4,6 +4,7 @@ define('TITLE', "Verify Email");
 include '../assets/layouts/header.php';
 check_logged_in_butnot_verified(); 
 
+
 ?>
 
 
