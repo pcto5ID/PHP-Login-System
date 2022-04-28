@@ -7,7 +7,6 @@ function check_logged_in() {
         return true;
     }
     else {
-
         header("Location: ../login/");
         exit();
     }
@@ -170,5 +169,6 @@ function check_remember_me() {
                 }
             }
         }
+
     }
 }
